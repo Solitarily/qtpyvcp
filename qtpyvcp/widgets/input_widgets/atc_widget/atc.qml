@@ -5,8 +5,10 @@ import QtQuick.Layouts 1.3
 Rectangle {
     visible: true
     width: 550
-    color: "#919191"
+    border.width: 0
+    opacity: 1
     height: 550
+    color: "#00000000"
 
     GridLayout {
         anchors.top: parent.top
@@ -46,10 +48,10 @@ Rectangle {
 
     Image {
         id: atc_holder
-        x: 13
-        y: 14
-        width: 524
-        height: 523
+        x: 25
+        y: 42
+        width: 500
+        height: 500
         antialiasing: true
         z: 0
         rotation: 0
@@ -66,13 +68,13 @@ Rectangle {
 
         Rectangle {
             id: tool_1
-            x: 467
-            y: 239
-            width: 42
-            height: 42
+            x: 432
+            y: 220
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_1
@@ -83,8 +85,8 @@ Rectangle {
 
             Text {
                 id: tool_text_1
-                x: 8
-                y: 7
+                x: 15
+                y: 16
                 text: qsTr("T1")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -95,13 +97,13 @@ Rectangle {
 
         Rectangle {
             id: tool_2
-            x: 431
-            y: 129
-            width: 42
-            height: 42
+            x: 404
+            y: 114
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_2
@@ -112,8 +114,8 @@ Rectangle {
 
             Text {
                 id: tool_text_2
-                x: 8
-                y: 6
+                x: 15
+                y: 17
                 text: qsTr("T2")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -124,13 +126,13 @@ Rectangle {
 
         Rectangle {
             id: tool_3
-            x: 352
-            y: 49
-            width: 42
-            height: 42
+            x: 327
+            y: 35
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_3
@@ -141,8 +143,8 @@ Rectangle {
 
             Text {
                 id: tool_text_3
-                x: 7
-                y: 6
+                x: 15
+                y: 17
                 text: qsTr("T3")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -153,13 +155,13 @@ Rectangle {
 
         Rectangle {
             id: tool_4
-            x: 240
-            y: 17
-            width: 42
-            height: 42
+            x: 220
+            y: 8
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_4
@@ -170,8 +172,8 @@ Rectangle {
 
             Text {
                 id: tool_text_4
-                x: 8
-                y: 5
+                x: 15
+                y: 18
                 text: qsTr("T4")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -182,13 +184,13 @@ Rectangle {
 
         Rectangle {
             id: tool_5
-            x: 127
-            y: 49
-            width: 42
-            height: 42
+            x: 114
+            y: 35
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_5
@@ -199,8 +201,8 @@ Rectangle {
 
             Text {
                 id: tool_text_5
-                x: 7
-                y: 6
+                x: 14
+                y: 17
                 text: qsTr("T5")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -211,13 +213,13 @@ Rectangle {
 
         Rectangle {
             id: tool_6
-            x: 40
-            y: 127
-            width: 42
-            height: 42
+            x: 34
+            y: 114
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_6
@@ -228,8 +230,8 @@ Rectangle {
 
             Text {
                 id: tool_text_6
-                x: 7
-                y: 6
+                x: 14
+                y: 16
                 text: qsTr("T6")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -240,13 +242,13 @@ Rectangle {
 
         Rectangle {
             id: tool_7
-            x: 6
-            y: 238
-            width: 42
-            height: 42
+            x: 8
+            y: 220
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_7
@@ -257,8 +259,8 @@ Rectangle {
 
             Text {
                 id: tool_text_7
-                x: 7
-                y: 7
+                x: 15
+                y: 16
                 text: qsTr("T7")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -269,13 +271,13 @@ Rectangle {
 
         Rectangle {
             id: tool_8
-            x: 43
-            y: 351
-            width: 42
-            height: 42
+            x: 34
+            y: 327
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_8
@@ -286,8 +288,8 @@ Rectangle {
 
             Text {
                 id: tool_text_8
-                x: 7
-                y: 6
+                x: 14
+                y: 15
                 text: qsTr("T8")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -298,13 +300,13 @@ Rectangle {
 
         Rectangle {
             id: tool_9
-            x: 127
-            y: 435
-            width: 42
-            height: 42
+            x: 114
+            y: 405
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_9
@@ -315,8 +317,8 @@ Rectangle {
 
             Text {
                 id: tool_text_9
-                x: 7
-                y: 6
+                x: 14
+                y: 16
                 text: qsTr("T9")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -327,13 +329,13 @@ Rectangle {
 
         Rectangle {
             id: tool_10
-            x: 241
-            y: 465
-            width: 42
-            height: 42
+            x: 220
+            y: 432
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_10
@@ -344,8 +346,8 @@ Rectangle {
 
             Text {
                 id: tool_text_10
-                x: 2
-                y: 6
+                x: 5
+                y: 15
                 text: qsTr("T10")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -356,13 +358,13 @@ Rectangle {
 
         Rectangle {
             id: tool_11
-            x: 352
-            y: 435
-            width: 42
-            height: 42
+            x: 327
+            y: 405
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_11
@@ -373,8 +375,8 @@ Rectangle {
 
             Text {
                 id: tool_text_11
-                x: 2
-                y: 6
+                x: 7
+                y: 18
                 text: qsTr("T11")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -385,13 +387,13 @@ Rectangle {
 
         Rectangle {
             id: tool_12
-            x: 435
-            y: 353
-            width: 42
-            height: 42
+            x: 404
+            y: 327
+            width: 60
+            height: 60
             color: "#ffffff"
-            radius: 21
-            border.width: 2
+            radius: 30
+            border.width: 4
 
             RotationAnimator {
                 id: tool_anim_12
@@ -402,8 +404,8 @@ Rectangle {
 
             Text {
                 id: tool_text_12
-                x: 2
-                y: 6
+                x: 7
+                y: 18
                 text: qsTr("T12")
                 font.bold: true
                 verticalAlignment: Text.AlignVCenter
@@ -412,16 +414,6 @@ Rectangle {
             }
         }
     }
-
-    Timer {
-        id: halTimer
-        interval: 100
-        repeat: true
-        running: true
-        triggeredOnStart: false
-        onTriggered: atc_spiner.get_pins()
-    }
-
 
     function rotate_atc(name, tool_no, direction) {
         if (direction === 1) {

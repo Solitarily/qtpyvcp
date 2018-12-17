@@ -35,7 +35,7 @@ class DynATC(QQuickWidget):
     def __init__(self, parent=None):
         super(DynATC, self).__init__(parent)
 
-        if parent is None:
+        if not parent:
             return
 
         self.engine().rootContext().setContextProperty("atc_spiner", self)
@@ -55,14 +55,14 @@ class DynATC(QQuickWidget):
 
         self.atc_position = 0
 
-        # STATUS.tool_in_spindle.connect(self.on_tool_in_spindle)
-        # STATUS.pocket_prepped.connect(self.on_pocket_prepped)
+        # STATUS.tool_in_spindle.onValueChanged(self.on_tool_in_spindle)
+        # STATUS.pocket_prepped.onValueChanged(self.on_pocket_prepped)
 
-    def on_pocket_prepped(self, pocket_num):
-        print "Pocket Prepared: ", pocket_num
-
-    def on_tool_in_spindle(self, tool_num):
-        print "Tool in Spindle: ", tool_num
+    # def on_pocket_prepped(self, pocket_num):
+    #     print "Pocket Prepared: ", pocket_num
+    #
+    # def on_tool_in_spindle(self, tool_num):
+    #     print "Tool in Spindle: ", tool_num
 
     rotateFwdSig = Signal(int, arguments=['rotate_forward'])
     @Slot()
