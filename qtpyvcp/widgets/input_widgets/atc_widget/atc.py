@@ -9,7 +9,7 @@ ctypes.CDLL(ctypes.util.find_library("GL"), mode=ctypes.RTLD_GLOBAL)
 
 # end of Workarround
 
-from hal import component, HAL_BIT, HAL_IN
+# from hal import component, HAL_BIT, HAL_IN
 
 from qtpy.QtCore import Signal, Slot, QUrl
 from qtpy.QtQuickWidgets import QQuickWidget
@@ -76,22 +76,22 @@ class DynATC(QQuickWidget):
         self.rotateRevSig.emit(self.atc_position)
         self.atc_position -= 1
 
-    pinSig = Signal(arguments=['get_pins'])
-    @Slot()
-    def get_pins(self):
-        pass
-
-        # if self.halcomp is None:
-        #    return
-        #
-        # self.fwd_pin = self.halcomp["fwd"]
-        # if self.fwd_pin != self.prev_fwd_pin:
-        #     self.prev_fwd_pin = self.fwd_pin
-        #     self.rotateFwdSig.emit(self.atc_position)
-        #     self.atc_position += 1
-        #
-        # self.rev_pin = self.halcomp["rev"]
-        # if self.rev_pin != self.prev_rev_pin:
-        #     self.prev_rev_pin = self.rev_pin
-        #     self.rotateRevSig.emit(self.atc_position)
-        #     self.atc_position += 1
+    # pinSig = Signal(arguments=['get_pins'])
+    # @Slot()
+    # def get_pins(self):
+    #     pass
+    #
+    #     if self.halcomp is None:
+    #        return
+    #
+    #     self.fwd_pin = self.halcomp["fwd"]
+    #     if self.fwd_pin != self.prev_fwd_pin:
+    #         self.prev_fwd_pin = self.fwd_pin
+    #         self.rotateFwdSig.emit(self.atc_position)
+    #         self.atc_position += 1
+    #
+    #     self.rev_pin = self.halcomp["rev"]
+    #     if self.rev_pin != self.prev_rev_pin:
+    #         self.prev_rev_pin = self.rev_pin
+    #         self.rotateRevSig.emit(self.atc_position)
+    #         self.atc_position += 1
