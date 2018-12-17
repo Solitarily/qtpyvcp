@@ -47,13 +47,14 @@ class DynATC(QQuickWidget):
         # except Exception as e:
         #     self.halcomp = None
 
-        self.fwd_pin = 0
-        self.rev_pin = 0
-
-        self.prev_fwd_pin = 0
-        self.prev_rev_pin = 0
+        # self.fwd_pin = 0
+        # self.rev_pin = 0
+        #
+        # self.prev_fwd_pin = 0
+        # self.prev_rev_pin = 0
 
         self.atc_position = 0
+        self.wait = False
 
         # STATUS.tool_in_spindle.onValueChanged(self.on_tool_in_spindle)
         # STATUS.pocket_prepped.onValueChanged(self.on_pocket_prepped)
@@ -65,16 +66,63 @@ class DynATC(QQuickWidget):
     #     print "Tool in Spindle: ", tool_num
 
     rotateFwdSig = Signal(int, arguments=['rotate_forward'])
+
     @Slot()
     def rotate_forward(self):
         self.rotateFwdSig.emit(self.atc_position)
         self.atc_position += 1
 
     rotateRevSig = Signal(int, arguments=['rotate_reverse'])
+
     @Slot()
     def rotate_reverse(self):
         self.rotateRevSig.emit(self.atc_position)
         self.atc_position -= 1
+
+    set_pocketSig = Signal(int, arguments=['pocket_number'])
+
+    @Slot(str)
+    def set_pocket(self, pocket_num):
+        if pocket_num == '':
+            return
+
+        pocket_num = int(pocket_num)
+
+        if 12 > pocket_num < 0:
+            return
+
+        moves = 0
+
+        if pocket_num < self.atc_position:
+            moves = self.atc_position - pocket_num
+        elif pocket_num > self.atc_position:
+            moves = pocket_num - self.atc_position
+
+        print(moves)
+
+        for i in range(moves):
+
+            if pocket_num < self.atc_position:
+                print("MENOR")
+                if not self.wait:
+                    self.rotate_reverse()
+                    self.wait = True
+            elif pocket_num > self.atc_position:
+                print("MAYOR")
+                if not self.wait:
+                    print("NO WAIT")
+                    self.rotate_forward()
+                    self.wait = True
+                else:
+                    print("WAIT")
+
+    rotation_finishedSig = Signal(arguments=['finished'])
+    @Slot()
+    def rotation_finished(self):
+        print("@#####################################")
+        self.wait = False
+
+
 
     # pinSig = Signal(arguments=['get_pins'])
     # @Slot()

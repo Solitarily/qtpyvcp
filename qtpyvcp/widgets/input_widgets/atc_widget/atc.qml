@@ -64,6 +64,12 @@ Rectangle {
             target: atc_holder;
             duration: 1000
             running: false
+            onRunningChanged: {
+                if (!atc_anim.restarted) {
+                    console.log("LOLO")
+                    atc_spiner.rotation_finished()
+                }
+            }
         }
 
         Rectangle {
@@ -460,6 +466,7 @@ Rectangle {
             rotate_tool(tool_anim_11, rotate_forward, 1)
             rotate_tool(tool_anim_12, rotate_forward, 1)
 
+
         }
 
         onRotateRevSig: {
@@ -477,7 +484,7 @@ Rectangle {
             rotate_tool(tool_anim_10, rotate_reverse, -1)
             rotate_tool(tool_anim_11, rotate_reverse, -1)
             rotate_tool(tool_anim_12, rotate_reverse, -1)
-
         }
+
     }
 }
