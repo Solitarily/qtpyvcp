@@ -80,6 +80,7 @@ OPTIONS = DotDict()
 PLUGINS = {}
 DIALOGS = {}
 WINDOWS = {}
+KEYBOARDS = {}
 
 
 def main():
