@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1071</width>
-    <height>295</height>
+    <width>1070</width>
+    <height>350</height>
    </rect>
   </property>
   <property name="focusPolicy">
@@ -48,14 +48,14 @@
      </property>
      <property name="minimumSize">
       <size>
-       <width>1061</width>
-       <height>285</height>
+       <width>1060</width>
+       <height>340</height>
       </size>
      </property>
      <property name="maximumSize">
       <size>
-       <width>1061</width>
-       <height>285</height>
+       <width>1060</width>
+       <height>340</height>
       </size>
      </property>
      <property name="styleSheet">
@@ -77,6 +77,893 @@
       <property name="spacing">
        <number>7</number>
       </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <property name="spacing">
+         <number>7</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="pushButton_99">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>~</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_102">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>!</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_103">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>@</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_111">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>#</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_104">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>$</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_110">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>%</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_109">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>^</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_106">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Courier</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Courier&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>&amp;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_108">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>*</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_105">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>(</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_88">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_90">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>_</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_91">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_92">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>{</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_93">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>48</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>48</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>}</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_71">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{ 
+    background: rgb(97, 98, 99);
+    color: white;
+    font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>FN</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_95">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{ 
+    background: rgb(147, 148, 149);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_96">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{ 
+    background: rgb(147, 148, 149);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_100">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{ 
+    background: rgb(147, 148, 149);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_101">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{ 
+    background: rgb(147, 148, 149);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <property name="spacing">
@@ -664,13 +1551,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>101</width>
+            <width>100</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>101</width>
+            <width>100</width>
             <height>45</height>
            </size>
           </property>
@@ -935,13 +1822,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>71</width>
+            <width>48</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>71</width>
+            <width>48</width>
             <height>45</height>
            </size>
           </property>
@@ -1507,13 +2394,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>75</width>
+            <width>45</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>70</width>
+            <width>45</width>
             <height>45</height>
            </size>
           </property>
@@ -1538,6 +2425,50 @@
           </property>
           <property name="text">
            <string>\</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_67">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>|</string>
           </property>
          </widget>
         </item>
@@ -1778,13 +2709,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>87</width>
+            <width>80</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>87</width>
+            <width>80</width>
             <height>45</height>
            </size>
           </property>
@@ -2231,7 +3162,7 @@
           <property name="font">
            <font>
             <family>Bebas Kai</family>
-            <pointsize>17</pointsize>
+            <pointsize>16</pointsize>
             <weight>50</weight>
             <italic>false</italic>
             <bold>false</bold>
@@ -2241,14 +3172,14 @@
            <enum>Qt::NoFocus</enum>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton{ 
-    background: rgb(97, 98, 99);
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
     color: white;
-    font: 17pt &quot;Bebas Kai&quot;;
+    font: 16pt &quot;Bebas Kai&quot;;
 }</string>
           </property>
           <property name="text">
-           <string>;</string>
+           <string>:</string>
           </property>
          </widget>
         </item>
@@ -2275,7 +3206,7 @@
           <property name="font">
            <font>
             <family>Bebas Kai</family>
-            <pointsize>17</pointsize>
+            <pointsize>16</pointsize>
             <weight>50</weight>
             <italic>false</italic>
             <bold>false</bold>
@@ -2285,14 +3216,14 @@
            <enum>Qt::NoFocus</enum>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton{ 
-    background: rgb(97, 98, 99);
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
     color: white;
-    font: 17pt &quot;Bebas Kai&quot;;
+    font: 16pt &quot;Bebas Kai&quot;;
 }</string>
           </property>
           <property name="text">
-           <string>'</string>
+           <string>&quot;</string>
           </property>
          </widget>
         </item>
@@ -2306,13 +3237,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>110</width>
+            <width>117</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>110</width>
+            <width>117</width>
             <height>45</height>
            </size>
           </property>
@@ -2568,7 +3499,7 @@
          <number>7</number>
         </property>
         <item>
-         <widget class="QPushButton" name="pushButton_70">
+         <widget class="QPushButton" name="pushButton_112">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
             <horstretch>0</horstretch>
@@ -2577,13 +3508,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>115</width>
+            <width>98</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>115</width>
+            <width>98</width>
             <height>45</height>
            </size>
           </property>
@@ -2942,7 +3873,7 @@
           <property name="font">
            <font>
             <family>Bebas Kai</family>
-            <pointsize>17</pointsize>
+            <pointsize>16</pointsize>
             <weight>50</weight>
             <italic>false</italic>
             <bold>false</bold>
@@ -2952,14 +3883,14 @@
            <enum>Qt::NoFocus</enum>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton{ 
-    background: rgb(97, 98, 99);
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
     color: white;
-    font: 17pt &quot;Bebas Kai&quot;;
+    font: 16pt &quot;Bebas Kai&quot;;
 }</string>
           </property>
           <property name="text">
-           <string>,</string>
+           <string>&lt;</string>
           </property>
          </widget>
         </item>
@@ -2986,7 +3917,7 @@
           <property name="font">
            <font>
             <family>Bebas Kai</family>
-            <pointsize>17</pointsize>
+            <pointsize>16</pointsize>
             <weight>50</weight>
             <italic>false</italic>
             <bold>false</bold>
@@ -2996,14 +3927,14 @@
            <enum>Qt::NoFocus</enum>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton{ 
-    background: rgb(97, 98, 99);
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
     color: white;
-    font: 17pt &quot;Bebas Kai&quot;;
+    font: 16pt &quot;Bebas Kai&quot;;
 }</string>
           </property>
           <property name="text">
-           <string>.</string>
+           <string>&gt;</string>
           </property>
          </widget>
         </item>
@@ -3030,6 +3961,50 @@
           <property name="font">
            <font>
             <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { 
+    background: rgb(131, 155, 190);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>?</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_89">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>46</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>46</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
             <pointsize>17</pointsize>
             <weight>50</weight>
             <italic>false</italic>
@@ -3047,34 +4022,34 @@
 }</string>
           </property>
           <property name="text">
-           <string>/</string>
+           <string>;</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_67">
+         <widget class="QPushButton" name="pushButton_98">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
           <property name="minimumSize">
            <size>
-            <width>78</width>
+            <width>46</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>82</width>
+            <width>46</width>
             <height>45</height>
            </size>
           </property>
           <property name="font">
            <font>
             <family>Bebas Kai</family>
-            <pointsize>14</pointsize>
+            <pointsize>17</pointsize>
             <weight>50</weight>
             <italic>false</italic>
             <bold>false</bold>
@@ -3087,11 +4062,11 @@
            <string notr="true">QPushButton{ 
     background: rgb(97, 98, 99);
     color: white;
-    font: 14pt &quot;Bebas Kai&quot;;
+    font: 17pt &quot;Bebas Kai&quot;;
 }</string>
           </property>
           <property name="text">
-           <string>shift</string>
+           <string>'</string>
           </property>
          </widget>
         </item>
@@ -3396,13 +4371,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>55</width>
+            <width>48</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>55</width>
+            <width>48</width>
             <height>45</height>
            </size>
           </property>
@@ -3440,13 +4415,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>55</width>
+            <width>48</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>55</width>
+            <width>48</width>
             <height>45</height>
            </size>
           </property>
@@ -3484,13 +4459,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>423</width>
+            <width>344</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>423</width>
+            <width>344</width>
             <height>16777215</height>
            </size>
           </property>
@@ -3519,7 +4494,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_71">
+         <widget class="QPushButton" name="pushButton_70">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
             <horstretch>0</horstretch>
@@ -3528,20 +4503,20 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>55</width>
+            <width>45</width>
             <height>45</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>55</width>
+            <width>45</width>
             <height>45</height>
            </size>
           </property>
           <property name="font">
            <font>
             <family>Bebas Kai</family>
-            <pointsize>14</pointsize>
+            <pointsize>17</pointsize>
             <weight>50</weight>
             <italic>false</italic>
             <bold>false</bold>
@@ -3554,11 +4529,99 @@
            <string notr="true">QPushButton{ 
     background: rgb(97, 98, 99);
     color: white;
-    font: 14pt &quot;Bebas Kai&quot;;
+    font: 17pt &quot;Bebas Kai&quot;;
 }</string>
           </property>
           <property name="text">
-           <string>FN</string>
+           <string>,</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_86">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>17</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{ 
+    background: rgb(97, 98, 99);
+    color: white;
+    font: 17pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>,</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_107">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bebas Kai</family>
+            <pointsize>16</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{ 
+    background: rgb(97, 98, 99);
+    color: white;
+    font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>/</string>
           </property>
          </widget>
         </item>
