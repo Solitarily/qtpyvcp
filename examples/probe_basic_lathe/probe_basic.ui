@@ -8369,34 +8369,12 @@ border-width: 2px;
 border-radius: 6px;
 }</string>
                 </property>
-                <widget class="QLabel" name="label_43">
-                 <property name="geometry">
-                  <rect>
-                   <x>195</x>
-                   <y>78</y>
-                   <width>250</width>
-                   <height>403</height>
-                  </rect>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">image: url(:/images/atc_spindle_tool_dimensioned.png);</string>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="pixmap">
-                  <pixmap resource="probe_basic.qrc">:/images/atc_spindle_tool_dimensioned.png</pixmap>
-                 </property>
-                 <property name="scaledContents">
-                  <bool>true</bool>
-                 </property>
-                </widget>
                 <widget class="QFrame" name="frame_11">
                  <property name="geometry">
                   <rect>
-                   <x>122</x>
-                   <y>267</y>
-                   <width>145</width>
+                   <x>80</x>
+                   <y>270</y>
+                   <width>132</width>
                    <height>60</height>
                   </rect>
                  </property>
@@ -8408,13 +8386,13 @@ border-radius: 6px;
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>100</width>
+                   <width>132</width>
                    <height>60</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>16777215</width>
+                   <width>132</width>
                    <height>58</height>
                   </size>
                  </property>
@@ -8442,7 +8420,7 @@ border-radius: 6px;
                      <number>3</number>
                     </property>
                     <item>
-                     <widget class="QLabel" name="label_48">
+                     <widget class="QLabel" name="label_59">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                         <horstretch>0</horstretch>
@@ -8451,13 +8429,13 @@ border-radius: 6px;
                       </property>
                       <property name="minimumSize">
                        <size>
-                        <width>48</width>
+                        <width>35</width>
                         <height>33</height>
                        </size>
                       </property>
                       <property name="maximumSize">
                        <size>
-                        <width>48</width>
+                        <width>35</width>
                         <height>33</height>
                        </size>
                       </property>
@@ -8471,7 +8449,7 @@ border-style: none;
 }</string>
                       </property>
                       <property name="text">
-                       <string>TOOL LENGTH</string>
+                       <string>I</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -8536,8 +8514,8 @@ border-style: none;
                 <widget class="QFrame" name="frame_12">
                  <property name="geometry">
                   <rect>
-                   <x>180</x>
-                   <y>446</y>
+                   <x>80</x>
+                   <y>200</y>
                    <width>132</width>
                    <height>60</height>
                   </rect>
@@ -8550,13 +8528,13 @@ border-style: none;
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>100</width>
+                   <width>132</width>
                    <height>60</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>16777215</width>
+                   <width>132</width>
                    <height>60</height>
                   </size>
                  </property>
@@ -8854,35 +8832,263 @@ border-style: none;
                   <string>MDI</string>
                  </property>
                 </widget>
-                <widget class="StatusLabel" name="tool_length_6">
+                <widget class="QLabel" name="label_28">
                  <property name="geometry">
                   <rect>
-                   <x>330</x>
-                   <y>227</y>
-                   <width>50</width>
-                   <height>33</height>
+                   <x>270</x>
+                   <y>160</y>
+                   <width>200</width>
+                   <height>372</height>
                   </rect>
                  </property>
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                   <horstretch>1</horstretch>
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>33</height>
+                   <width>200</width>
+                   <height>372</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
-                   <height>33</height>
+                   <width>200</width>
+                   <height>372</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="probe_basic.qrc">:/images/lathe_tool_dimensions.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QFrame" name="frame_14">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>340</y>
+                   <width>132</width>
+                   <height>60</height>
+                  </rect>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>132</width>
+                   <height>60</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>132</width>
+                   <height>58</height>
                   </size>
                  </property>
                  <property name="styleSheet">
-                  <string notr="true">QLabel {
+                  <string notr="true">QFrame{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_132">
+                  <property name="leftMargin">
+                   <number>5</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>5</number>
+                  </property>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_20">
+                    <property name="spacing">
+                     <number>3</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_62">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>35</width>
+                        <height>33</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>35</width>
+                        <height>33</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel{
+font: 75 13pt &quot;Bebas Kai&quot;;
+color: rgb(255, 255, 255);
+padding-right: 0px;
+padding-left: 0px;
+border-style: none;
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>J</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="StatusLabel" name="tool_length_9">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                        <horstretch>1</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>70</width>
+                        <height>33</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>70</width>
+                        <height>33</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: white;
+	font: 75 14pt &quot;Bebas Kai&quot;;
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>0.0000</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                      <property name="rules" stdset="0">
+                       <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;tooltable:current_tool?z_offset&quot;, &quot;trigger&quot;: true}, {&quot;url&quot;: &quot;status:linear_units?text&quot;, &quot;trigger&quot;: false}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;\&quot;{:.4f}\&quot;.format(ch[0]) if ch[1] == 'in' else \&quot;{:.4f}\&quot;.format(ch[0])&quot;, &quot;name&quot;: &quot;Tool Length&quot;}]</string>
+                      </property>
+                      <property name="format" stdset="0">
+                       <string>{:.3f}</string>
+                      </property>
+                      <property name="statusItem" stdset="0">
+                       <string>tool_offset.3</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QFrame" name="frame_29">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>100</y>
+                   <width>80</width>
+                   <height>50</height>
+                  </rect>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>80</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QFrame{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	font: 16pt &quot;Bebas Kai&quot;;
+}</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_133">
+                  <property name="leftMargin">
+                   <number>5</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>4</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>5</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>4</number>
+                  </property>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_28">
+                    <property name="spacing">
+                     <number>3</number>
+                    </property>
+                    <item>
+                     <widget class="StatusLabel" name="tool_length_6">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                        <horstretch>1</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>33</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>50</width>
+                        <height>33</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
     border-style: transparent;
     border-color: rgb(235, 235, 235);
     border-width: 1px;
@@ -8891,22 +9097,27 @@ border-style: none;
     background: white;
 	font: 75 16pt &quot;Bebas Kai&quot;;
 }</string>
-                 </property>
-                 <property name="text">
-                  <string>T0</string>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignCenter</set>
-                 </property>
-                 <property name="rules" stdset="0">
-                  <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:tool_in_spindle?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;'T' + ch[0]&quot;, &quot;name&quot;: &quot;current tool&quot;}]</string>
-                 </property>
-                 <property name="format" stdset="0">
-                  <string>{:.3f}</string>
-                 </property>
-                 <property name="statusItem" stdset="0">
-                  <string>tool_offset.3</string>
-                 </property>
+                      </property>
+                      <property name="text">
+                       <string>T0</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                      <property name="rules" stdset="0">
+                       <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:tool_in_spindle?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;'T' + ch[0]&quot;, &quot;name&quot;: &quot;current tool&quot;}]</string>
+                      </property>
+                      <property name="format" stdset="0">
+                       <string>{:.3f}</string>
+                      </property>
+                      <property name="statusItem" stdset="0">
+                       <string>tool_offset.3</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
                 </widget>
                </widget>
               </item>
@@ -17343,6 +17554,43 @@ Background:transparent;
            <attribute name="title">
             <string>          SETTINGS           </string>
            </attribute>
+           <widget class="QLabel" name="label_27">
+            <property name="geometry">
+             <rect>
+              <x>1260</x>
+              <y>110</y>
+              <width>200</width>
+              <height>372</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>372</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>372</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="probe_basic.qrc">:/images/lathe_tool_dimensions.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
           </widget>
           <widget class="QWidget" name="tab_10">
            <attribute name="title">
